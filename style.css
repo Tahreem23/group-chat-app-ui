@@ -206,3 +206,7 @@ body {
   .clock-icon{
     color: #8a939b;
   }
+
+  .ck-balloon-panel{
+    display: none !important;
+  }
