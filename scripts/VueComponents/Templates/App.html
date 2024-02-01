@@ -1,0 +1,166 @@
+<div class="container-fluid chat-app-main mt-5">
+    <div class="row">
+        <div class="col-md-3 group-list p-0">
+            <ul class="group-list-items">
+                <li class="group-item">
+                    <span class="chat-heading">Chats</span>
+                </li>
+                <li class="group-item">
+                    <div class="row">
+                        <div class="col-md group-icon">
+                            <img src="images/group-chat.png">
+                        </div>
+                        <div class="col-md group-detail">
+                            <span class="group-name">Group 1</span>
+                            <br>
+                            <div>                                    
+                                Yeah everything is fine
+                            </div>
+                        </div>
+                        <div class="col-md group-last-chat-time">
+                            11:18 AM
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="group-item">
+                    <div class="row">
+                        <div class="col-md group-icon">
+                            <img src="images/chat-icon.png">
+                        </div>
+                        <div class="col-md group-detail">
+                            <span class="group-name">Group 2</span>
+                            <br>
+                            <div>                                    
+                                Hi
+                            </div>
+                        </div>
+                        <div class="col-md group-last-chat-time">
+                            11:18 AM
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="group-item">
+                    <div class="row">
+                        <div class="col-md group-icon">
+                            <img src="images/user-icon.png">
+                        </div>
+                        <div class="col-md group-detail">
+                            <span class="group-name">Group 3</span>
+                            <br>
+                            <div>                                    
+                                How's everybody?
+                            </div>
+                        </div>
+                        <div class="col-md group-last-chat-time">
+                            11:18 AM
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="group-item loggedin-user">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="images/user.png">
+                        </div>
+                        <div class="col-md-9 p-0">
+                            <span class="username">Pablo</span>
+                            <br>
+                            <span class="user-online-status">
+                                <span class="status-active">
+                                </span>
+                                Active
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9 p-0 chat-main">
+            <div class="group-heading">
+                Group 1
+            </div>
+            <div class="chat-messages">
+
+                <div class="chat-detail">
+                    <div class="chat-user-info">                        
+                        <span class="chat-username">Joe</span>
+                        <span class="status-in-active">
+                        </span>
+                    </div>
+                    <div class="chat-message">
+                        Hi! How are you? What about our next meeting?
+                    </div>
+                    <div class="chat-date">
+                        <i class="fa fa-clock-o clock-icon"></i> 12:04 PM
+                    </div>
+                </div>
+                <div class="chat-detail">
+                    <div class="chat-user-info">                        
+                        <span class="chat-username">Mary</span>
+                        <span class="status-in-active">
+                        </span>
+                    </div>
+                    <div class="chat-message">
+                        Hello! You wouldn’t need extensive training to be able to use Hevo
+                    </div>
+                    <div class="chat-date">
+                        <i class="fa fa-clock-o clock-icon"></i> 12:04 PM
+                    </div>
+                </div>
+                <div class="chat-detail">
+                    <div class="chat-user-info">                        
+                        <span class="chat-username">Mary</span>
+                        <span class="status-in-active">
+                        </span>
+                    </div>
+                    <div class="chat-message">
+                        Next meeting tomorrow 10:00 AM
+                    </div>
+                    <div class="chat-date">
+                        <i class="fa fa-clock-o clock-icon"></i>  12:04 PM
+                    </div>
+                </div>
+                <div class="chat-detail">
+                    <div class="chat-user-info">                        
+                        <span class="chat-username">Mary</span>
+                        <span class="status-in-active">
+                        </span>
+                    </div>
+                    <div class="chat-message">
+                        For a reliable and fault-free data migration from your applications, companies employ the use of ETL solutions like Hevo Data. While extracting and integrating several heterogeneous sources into your Data Warehouse like Amazon Redshift, Google BigQuery, Snowflake, or Firebolt is also a big task, Hevo makes everything easier using its No-Code Data Pipeline creation tools. 
+                    </div>
+                    <div class="chat-date">
+                        <i class="fa fa-clock-o clock-icon"></i>  12:04 PM
+                    </div>
+                </div>
+                <div class="chat-detail">
+                    <div class="chat-user-info">                        
+                        <span class="chat-username">Joe</span>
+                        <span class="status-in-active">
+                        </span>
+                    </div>
+                    <div class="chat-message">
+                        Great! Let's discuss the next project then
+                    </div>
+                    <div class="chat-date">
+                        <i class="fa fa-clock-o clock-icon"></i> 12:04 PM
+                    </div>
+                </div>
+            </div>
+            <div class="row new-message">
+                <div class="col-md-10 ">
+                    <!-- <div id="editor"></div> -->
+                    <div>
+                        <textarea :id="editorId"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-2 new-message-btn">
+                    <a href="" class="btn">Send<i class="material-icons">&#xe163;</i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

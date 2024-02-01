@@ -27,7 +27,8 @@ body {
 .group-list{
     background-color: #f5f5f8;
     border-radius: 10px;   
-    height: 85vh;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
 }
 
 .group-icon {
